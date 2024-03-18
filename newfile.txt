@@ -1,4 +1,6 @@
 // intro to git 
+
+	git init -> initializes git  
 	
 	git status -> check which files git knows exist 
 	
@@ -18,5 +20,46 @@ The staging env, also called staging is the new preferred term for this, but you
 
 	git status 
 	git add   // adds to the staging env 
-	git commit 
+	git commit -m "Your msg about the commit " 
+
+--------------------
 	
+	Git Branch 
+		
+		Branches allow you to move back and forth between 'states' of a project. Official git docs describe branches this way: ‘A branch in Git is simply a lightweight movable pointer to one of these commits.’ For instance, if you want to add a new page to your website you can create a new branch just for that page without affecting the main part of the project. Once you're done with the page, you can merge your changes from your branch into the primary branch. When you create a new branch, Git keeps track of which commit your branch 'branched' off of, so it knows the history behind all the files.  
+	
+		
+	git checkout -b <my branch> 
+		
+	// this comm will automatically create a new branch and check you out on it meaning git wil move you to that branch, off of the primary branch  . 
+
+	
+	git branch // tells about the branches created 
+
+
+Now, if you switch back to the primary branch and make some more commits, your new branch won't see any of those changes until you merge those changes onto your new branch. 
+
+
+---------------------
+
+
+
+Github will ask you if you want to create a new repo from scratch or if you want to add a repo you have created locally. 
+
+	If you have made a repo locally you just need to use the git push comm to push an exisiting rep from the comm line sec . 
+
+
+
+----------- 
+ 
+	Push a branch to github using git push comm 
+
+-------- 
+    caches the record in your computer to remember the token 
+
+   git config --global credential.helper cache 
+
+----------------------------	
+	git clone https://<tokenhere>@github.com/<user>/<repo>.git
+
+
