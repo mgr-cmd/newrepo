@@ -66,7 +66,18 @@ Github will ask you if you want to create a new repo from scratch or if you want
 
    git config --global credential.helper cache 
 
+ // anytime you can delete the cache record by 
+   
+   git config --system --unset credential.helper 
+   git confi --global --unset credential.helper 
+ 
 ----------------------------	
-	git clone https://<tokenhere>@github.com/<user>/<repo>.git
+	// cloning the repo  
+ 
+	 git clone https://github.com/mgr-cmd/newrepo
+	
+pull the repo 
+  
+	 git pull -v  
 
 
