@@ -54,7 +54,8 @@ Github will ask you if you want to create a new repo from scratch or if you want
  
 	Push a branch to github using git push comm 
 	
-	git remote add origin https://github.com/cubeton/mynewrepository.git
+// adds the origin  
+	git remote add origin https://github.com/mgr-cmd/newrepo 
 	git push -u origin master 
 	git push origin my-new-branch 
 
