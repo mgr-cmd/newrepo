@@ -1,0 +1,22 @@
+// intro to git 
+	
+	git status -> check which files git knows exist 
+	
+// staging environment, the commit,  and you 
+	A commit is a record of what changes you have made since the last time you made a commit. Essentially, you make changes to your repo (for example, adding a file or modifying one) and then tell git to put those changes into a commit.
+
+A commit, or "revision", is an individual change to a file (or set of files). When you make a commit to save your work, Git creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of the specific changes committed along with who made them and when. Commits usually contain a commit message which is a brief description of what changes were made . 
+
+So, how do you tell git which files to put into a commit? This is where the staging environment or index come in. As seen in Step 2, when you make changes to your repo, git notices that a file has changed but won't do anything with it (like adding it in a commit).
+
+
+To add a file to commit, you first need to add it to the staging env . To do this, you can use the git add <file name> 
+ 
+The staging env, also called staging is the new preferred term for this, but you can also see it referred to as the index 
+
+------------------
+
+	git status 
+	git add   // adds to the staging env 
+	git commit 
+	
