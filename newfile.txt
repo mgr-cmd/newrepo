@@ -53,7 +53,13 @@ Github will ask you if you want to create a new repo from scratch or if you want
 ----------- 
  
 	Push a branch to github using git push comm 
+	
+	git remote add origin https://github.com/cubeton/mynewrepository.git
+	git push -u origin master 
+	git push origin my-new-branch 
 
+
+	
 -------- 
     caches the record in your computer to remember the token 
 
